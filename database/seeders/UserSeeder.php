@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
             'last_name'=>'setiawan',
             'username'=>'GeneralTommy',
             'role'=>'admin',
-            'email'=>'tommysetiawannn@icloud.com',
+            'email'=>'generaltommy@yahoo.com',
             'gender'=>'male',
             'tgl_lahir'=>'2003-01-09',
             'password'=>Hash::make('123456789')
