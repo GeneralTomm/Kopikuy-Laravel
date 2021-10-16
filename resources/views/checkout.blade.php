@@ -143,7 +143,7 @@
                           </select>
                         </div>
                         <div class="col" v-if="metodePembayaran =='virtual'">
-                            <input type="text" name="bukti" id="bukti" class="form-control form-control-sm col mb-3" onfocus="this.type='file'" placeholder="Bukti Transaksi :">
+                            <input type="text" name="bukti" id="bukti" class="form-control form-control-sm col mb-3" onfocus="this.type='file'" placeholder="Bukti Transaksi (Rek: 12335444 ; Atas Nama : John Doe) :">
                         </div>
                         <div class="col">
                             <button type="submit" class="col btn btn-sm btn-cokelat w-100">Proceed Check Out </button>
