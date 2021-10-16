@@ -6,4 +6,4 @@ mungkin ada beberapa fitur yang mungkin secara tidak disengaja lupa dikerjakan  
 developemnt. mengenai web satu ini disarankan untuk menonton video demonstrasinya (maaf kalau tidak ada penjelasan ya) karena ada beberapa bagian yang ditutupi oleh middleware seperti admin dan lain-lainnya.
 
 ## Warning
-dihimbau untuk tidak menggunakan data informasi yang asli karena jika terjadi kebocoran data tidak akan ditanggung oleh developer. 
+dihimbau untuk tidak menggunakan data informasi yang asli saat mencoba registerasi atau login. karena jika terjadi kebocoran data tidak akan ditanggung oleh developer. 
