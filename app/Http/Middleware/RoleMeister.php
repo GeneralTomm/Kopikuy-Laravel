@@ -17,8 +17,8 @@ class RoleMeister
     public function handle(Request $request, Closure $next,string $roles)
     {
         if(Auth::check()){
-            if(Auth::user()->role != $roles || Auth::user()->role != 'admin'){
-                abort(404);
+            if(Auth::user()->role != $roles){
+                abort(403);
             }
             return $next($request);
         }else{
