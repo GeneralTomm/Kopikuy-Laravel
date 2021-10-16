@@ -130,7 +130,7 @@ Route::group(['prefix'=>'product'],function(){
 #worker -----------------------------------------------------
 
 Route::group(['prefix'=>'worker','middleware'=>'RoleMeister:admin'],function(){
-  Route::get('/home',[OrderController::class,'home']);
+  Route::get('/dashboard',[OrderController::class,'home']);
   Route::get('/order',[OrderController::class,'index']);
   Route::get("/konfirmasi",[TransactionController::class,'home']);
 });
