@@ -281,7 +281,7 @@ class TransactionController extends Controller
                 }
              }
         }
-        return view('waiting',['title'=>'Waiting','token'=>$token,'kodetransaksi'=>$kodetransaksi]);
+        return view('waiting',['title'=>'Waiting','token'=>$token,'kodetransaksi'=>$kodetransaksi,'method'=>$metodePembayaran]);
 
     }
     /**
