@@ -40,7 +40,7 @@ Route::group(['prefix'=>'client'],function(){
     Route::post('/kodetransaksi',[TransactionController::class,'kodetransaksi']);
     Route::put('/user/{id}',[UserController::class,'editProfile']);
   });
-  Route::group(['prefix'=>'testimonial'],function(){
+  Route::group(['prefix'=>'testimonial','middleware'=>'auth'],function(){
     Route::post('store',[TestimonialController::class,'store']);
   });
   Route::get('/category/{kategori}',[ProductController::class,'category']);
