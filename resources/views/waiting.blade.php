@@ -5,7 +5,7 @@
     <br><br>
     <center>
         <h3 class="fw-bold">
-            Transaksi telah berhasil di kirim, anda dapat kembali melanjutkan belanja anda. 
+            @if($method != 'cash') Transaksi telah berhasil di kirim @else Pembayaran akan dilakukan ketika anda sudah datang @endif, anda dapat kembali melanjutkan belanja anda. 
         </h3>
         <p>
             Petunjuk : Kode transaksi anda akan muncul di bagian Profile, Gunakan Kode Transaksi untuk mengambil Pesanan Anda.
